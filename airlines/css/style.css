@@ -1,0 +1,83 @@
+body {
+  padding-top: 50px;
+  padding-bottom: 60px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1000px;
+}
+.container > hr {
+  margin: 60px 0;
+}
+
+.jumbotron {
+  margin: 80px 0;
+  text-align: center;
+}
+.jumbotron h1 {
+  font-size: 100px;
+  line-height: 1;
+}
+.jumbotron .lead {
+  font-size: 24px;
+  line-height: 1.25;
+}
+.jumbotron .btn {
+  font-size: 21px;
+  padding: 14px 24px;
+}
+
+.marketing {
+  margin: 60px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+#map {
+  height: 500px;
+}
+
+.map-canvas {
+  height: 500px;
+}
+
+.ember-application {
+  margin: 20px;
+}
+
+/* FauxSelectComponent */
+.faux-select {
+    color: #333;
+    border: 0px;
+    background-color: white;
+    position: absolute;
+    height: 20px;
+    width: 125px;
+    margin: 5px;
+}
+.faux-select {
+    position: relative;
+}
+.faux-select-box {
+    position: absolute;
+    min-width: 137px;
+}
+.faux-select-selected,
+.faux-select-graphic {
+    height: 17px;
+}
+.faux-select-selected {
+    float: left;
+    min-width: 117px;
+    padding: 5px 10px;
+}
+.faux-select-graphic {
+    float: right;
+    padding: 5px 7px;
+}

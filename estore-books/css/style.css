@@ -1,0 +1,150 @@
+html,
+body {
+  height: 100%;
+  font-family: proxima-nova,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  line-height: 1.42857;
+}
+
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+:-moz-any-link:focus {
+  outline: none;
+}
+
+:-webkit-any-link:focus {
+  outline: none;
+}
+
+:any-link:focus {
+  outline: none;
+}
+
+:focus {
+  outline: none;
+}
+
+h3 {
+  margin-top: 0;
+}
+
+a:link, a:active, a:visited {
+  text-decoration: none;
+  font-family: "NiveauGroteskBold",sans-serif;
+  transition-duration: 0.25s;
+  transition-property: color;
+  cursor: pointer;
+  outline: none;
+}
+
+a:hover {
+  outline: none;
+  text-decoration: none;
+  color: #43C0EF;
+}
+
+img {
+  padding-top: 15px;
+}
+
+ul li {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.jumbotron {
+  background-color: #1FA67A;
+  border-top: 1px solid #34A782;
+  border-bottom: 1px solid #1B926C;
+  margin-bottom: 0px;
+  margin-top: 25px;
+  padding: 10px 0px 10px;
+}
+
+.jumbotron, .jumbotron h1 {
+  color: #FFF;
+}
+
+.jumbotron h1 {
+  font-size: 60px;
+  letter-spacing: -1px;
+  line-height: 1;
+  text-shadow: 4px 3px 0px #1D9D74, 9px 8px 0px rgba(0, 0, 0, 0.15);
+  margin: 5px 0px 10px;
+}
+
+.book_center {
+  font-size: 220px;
+  text-align: center;
+  line-height: 240px;
+  text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.15);
+}
+
+.book_left {
+  font-size: 60px;
+  text-align: left;
+  line-height: 50px;
+  text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.15);
+}
+
+.book_right {
+  font-size: 220px;
+  text-align: right;
+  line-height: 240px;
+  text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.15);
+}
+
+.rating {
+  max-width: 97px;
+  font-size: 1.1em;
+  padding-top: 5px;
+  margin-left: 5px;
+}
+
+.rating-5 .rating { color:#5cb85c; }
+.rating-4 .rating { color:#5cb85c; }
+.rating-3 .rating { color:#f0ad4e; }
+.rating-2 .rating { color:#d9534f; }
+.rating-1 .rating { color:#d9534f; }
+
+.col-sm-8 li { padding-bottom: 1em; }
+
+#wrap {
+  min-height: 100%;
+  height: auto;
+  margin: 0 auto -60px;
+  padding: 0 0 60px;
+}
+
+#footer {
+  height: 100px;
+  background-color: #1FA67A;
+  border-top: 1px solid #1B926C;
+  color: #A5D8C7;
+  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.15);
+}
+
+.footright {
+  padding-top: 15px;
+  padding-right: 25px;
+  float: right;
+}
+
+.footleft {
+  padding-top: 15px;
+  float: left;
+  padding-left: 25px;
+}
